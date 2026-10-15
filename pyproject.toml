@@ -7,7 +7,7 @@ name = "mcp-kanka"
 version = "1.1.0"
 description = "MCP server for Kanka API integration"
 readme = "README.md"
-requires-python = "==3.14.8"
+requires-python = "==3.15.0"
 license = {text = "MIT"}
 authors = [
     {name = "Erv Walter", email = "erv@ewal.net"}
@@ -47,8 +47,8 @@ dev = [
     "pytest-asyncio==1.4.0",
     "pytest-cov==7.1.0",
     "mypy==2.4.0",
-    "ruff==0.16.10",
-    "black==26.10.0",
+    "ruff==0.17.0",
+    "black==26.10.1",
     "isort==9.0.2",
     "build==1.6.1",
     "bump2version==1.0.1",
