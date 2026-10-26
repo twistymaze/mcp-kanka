@@ -18,7 +18,7 @@ This package is designed specifically to serve the needs of [Teghrim](https://gi
 
 ## Requirements
 
-- Python 3.10 or higher (3.13.5 recommended)
+- Python 3.12 or higher (CI tests Python 3.12–3.15), matching python-kanka’s minimum requirement
 - Kanka API token and campaign ID
 
 ## Installation
