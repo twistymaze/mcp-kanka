@@ -3,6 +3,12 @@
   "extends": ["github>twistymaze/renovate-config:auto-merge"],
   "packageRules": [
     {
+      "description": "The supported Python minimum is a compatibility policy, not a runtime pin.",
+      "matchManagers": ["pep621"],
+      "matchDepTypes": ["requires-python"],
+      "enabled": false
+    },
+    {
       "matchDepNames": ["mcp"],
       "allowedVersions": "<2.0.0"
     }
